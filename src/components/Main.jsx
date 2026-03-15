@@ -15,14 +15,14 @@ const Main=()=>{
                 
         
             </div> */}
-            <div class="relative w-fit pl-15 pt-10" >
-               <img src="flower.png" class="w-full" alt="image"/>
+            <div className="relative w-fit pl-15 pt-10" >
+               <img src="/flower.png" class="w-full" alt="image"/>
 
-            <div class="absolute inset-0 "></div>
+            <div className="absolute inset-0 "></div>
 
-                 <h1 class="absolute pt-15 pl-5 inset-0 flex items-center justify-center 
+                 <h1 className="absolute pt-15 pl-5 inset-0 flex items-center justify-center 
                      text-black text-xl font-medium font-[italic]">
-                     Here you can borrow my<br/> belief in you,ultil you can <br/>find yours again....
+                     Here you can borrow my<br/> belief in you,ultil you can <br/>find yours again... 
                 </h1>
             </div>
 
