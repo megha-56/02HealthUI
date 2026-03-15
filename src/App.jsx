@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Nav from './components/Nav'
+import Main from './components/Main'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Nav/>
+      <Main/>
     </>
   )
 }
