@@ -22,7 +22,7 @@ const Main=()=>{
 
                  <h1 class="absolute pt-15 pl-5 inset-0 flex items-center justify-center 
                      text-black text-xl font-medium font-[italic]">
-                     Here you can borrow my<br/> belief in you,ultil you can <br/>find yours again...
+                     Here you can borrow my<br/> belief in you,ultil you can <br/>find yours again....
                 </h1>
             </div>
 
