@@ -3,8 +3,8 @@ import React from 'react'
 
 const Nav=()=>{
     return(
-        <div className='flex h-25 w-screen bg-pink-900 justify-around mx-auto'>
-            <div className='flex justify-evenly gap-5 font-[Poppins] pl-7'>
+        <div className='flex h-25 md:h-25 w-screen bg-pink-900 justify-around mx-auto'>
+            <div className='flex justify-evenly gap-5 md:gap-5 font-[Poppins]  pl-7 md:pl-7'>
                 <button  className='text-white active:underline'>Home</button>
                 <button className='text-white '>About Me</button>
                 <button className='text-white '>About Therapy</button>
@@ -12,12 +12,12 @@ const Nav=()=>{
                 <button className='text-white '>Contact Us</button>
             </div>
 
-            <div className='flex my-auto'>
+            <div className='flex my-auto'>  
                 
-                <div><button className='flex bg-pink-50 font-[Poppins] h-22 w-55  rounded-2xl  '>
+                <div><button className='flex bg-pink-50 font-[Poppins] md:h-22 h-22 md:w-55 w-55 rounded-2xl'>
                     
-                        <div className='pt-5 w-[40%] h-2'><img src='https://e7.pngegg.com/pngimages/866/828/png-clipart-pink-hearts-forming-heart-illustration-three-dimensional-geometric-heart-love-heart.png' alt="image"/></div>
-                        <div className='text-pink-900 text-3xl font-[Menlo]'>Believe Therapy</div>
+                        <div className='md:pt-5 pt-5 w-[40%] md:h-2 h-2'><img src='https://e7.pngegg.com/pngimages/866/828/png-clipart-pink-hearts-forming-heart-illustration-three-dimensional-geometric-heart-love-heart.png' alt="image"/></div>
+                        <div className='text-pink-900 text-3xl md:text-3xl font-[Menlo]'>Believe Therapy</div>
                     
                     </button>
                     
